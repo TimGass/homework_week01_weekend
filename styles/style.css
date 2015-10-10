@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: 'Myriad';
+  src: url("../fonts/myriad.otf"); }
+
+.search:focus {
+  outline: none; }
+
+header {
+  display: block;
+  background-image: url(file:///Users/Tim/dev/homework/Week%201/Thursday/assets/header.jpg);
+  height: 523px;
+  width: 100%;
+  padding-top: 10px; }
+
+h1, h2, h3, h4, p {
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+  display: block; }
+
+.surfandpad-logo {
+  margin-left: 160px;
+  float: left; }
+
+header p {
+  color: #083451;
+  padding-top: 0px;
+  padding-left: 0px;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  margin-right: 0px;
+  float: left;
+  font-family: 'Myriad'; }
+
+a.about {
+  display: block;
+  float: left;
+  text-decoration: none;
+  color: #083451;
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-left: 575px;
+  margin-top: 8px;
+  font-weight: none;
+  font-family: 'Oswald'; }
+
+button.search {
+  display: inline-block;
+  background: none;
+  color: #083451;
+  font-size: 18px;
+  font-family: 'Oswald';
+  font-weight: none;
+  border: none;
+  float: right;
+  padding: 0px;
+  margin: 8px 148px 0px 0px; }
+
+.text-height {
+  float: left;
+  margin-right: 8px; }
+
+.header-spacing {
+  float: left;
+  margin-left: 12px;
+  margin-top: 14px; }
+
+.main-title {
+  display: block;
+  margin: 220px auto 0px auto;
+  text-align: center;
+  font-family: 'Myriad';
+  font-size: 110px;
+  font-weight: lighter;
+  color: white;
+  line-height: 85px; }
+
+header p.caption {
+  display: block;
+  width: 100%;
+  margin: 0px;
+  font-size: 17px;
+  color: #083451;
+  text-align: center; }
