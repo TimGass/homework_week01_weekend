@@ -15,26 +15,21 @@ header {
   width: 100%;
   padding-top: 10px; }
 
-h1, h2, h3, h4, p {
-  font-size: 16px;
-  margin: 0px;
-  padding: 0px;
-  display: block; }
-
 .surfandpad-logo {
-  margin-left: 160px;
+  margin-left: 140px;
   float: left; }
 
 header p {
+  display: inline;
   color: #083451;
   padding-top: 0px;
   padding-left: 0px;
   font-family: sans-serif;
   font-weight: normal;
   font-size: 18px;
-  margin-right: 0px;
   float: left;
-  font-family: 'Myriad'; }
+  font-family: 'Myriad' sans-serif;
+  margin: 0px; }
 
 a.about {
   display: block;
@@ -43,17 +38,17 @@ a.about {
   color: #083451;
   font-family: sans-serif;
   font-size: 18px;
-  margin-left: 575px;
+  margin-left: 595px;
   margin-top: 8px;
   font-weight: none;
-  font-family: 'Oswald'; }
+  font-family: 'Oswald' sans-serif; }
 
 button.search {
   display: inline-block;
   background: none;
   color: #083451;
   font-size: 18px;
-  font-family: 'Oswald';
+  font-family: 'Oswald' sans-serif;
   font-weight: none;
   border: none;
   float: right;
@@ -62,7 +57,7 @@ button.search {
 
 .text-height {
   float: left;
-  margin-right: 8px; }
+  margin-right: 7px; }
 
 .header-spacing {
   float: left;
@@ -73,11 +68,12 @@ button.search {
   display: block;
   margin: 220px auto 0px auto;
   text-align: center;
-  font-family: 'Myriad';
+  font-family: 'Myriad' sans-serif;
   font-size: 110px;
   font-weight: lighter;
   color: white;
-  line-height: 85px; }
+  line-height: 85px;
+  text-shadow: 1px; }
 
 header p.caption {
   display: block;
@@ -86,3 +82,216 @@ header p.caption {
   font-size: 17px;
   color: #083451;
   text-align: center; }
+
+h2 {
+  display: inline-block;
+  float: left;
+  margin-top: 110px;
+  margin-left: 165px;
+  margin-right: 0px;
+  text-align: left;
+  width: 700px;
+  font-size: 45px;
+  color: #083451;
+  font-family: sans-serif;
+  font-weight: 501;
+  height: 100%;
+  transform: scale(1, 1.75);
+  letter-spacing: none;
+  line-height: 40px; }
+
+main > meta {
+  display: inline;
+  width: 700px;
+  height: 40px;
+  margin-left: 165px; }
+
+img.author-img {
+  height: 25px;
+  width: 25px; }
+
+p.author-name {
+  display: inline;
+  font-size: 12px;
+  margin-left: 5px;
+  color: #106DB3;
+  font-weight: normal; }
+
+time {
+  color: #A8B7C3;
+  font-size: 12px;
+  border: none;
+  margin-left: 15px;
+  line-height: 10px; }
+
+time input {
+  border: none;
+  text-decoration: underline;
+  width: 200px; }
+
+.main-article {
+  display: block;
+  float: left;
+  height: 760px;
+  width: 620px;
+  margin-top: 40px;
+  margin-left: 165px;
+  font-family: 'Myriad' sans-serif;
+  color: #5E686F;
+  line-height: 30px; }
+  .main-article a {
+    color: #A8B7C3; }
+
+.inerjection {
+  color: #106DB3;
+  font-size: 30px;
+  height: 70px;
+  padding-left: 20px;
+  border-left: 2px solid #D3D3D3; }
+
+.article-options {
+  display: block;
+  padding-left: 165px;
+  margin-top: 0px;
+  float: left;
+  width: 1300px;
+  margin-right: 651px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid #D3D3D3; }
+  .article-options .button1 {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    text-align: center;
+    line-height: 0px;
+    height: 30px;
+    width: 160px;
+    background-color: #A3B3BF;
+    margin-right: 5px; }
+    .article-options .button1 img {
+      margin: 0px;
+      padding: 7px;
+      background-color: #5E686F;
+      float: left; }
+    .article-options .button1 span {
+      float: left;
+      margin: 15px;
+      font-size: 14px;
+      font-family: 'Myriad' sans-serif;
+      color: #FFFFFF;
+      font-weight: lighter; }
+  .article-options .button2 {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    text-align: center;
+    line-height: 0px;
+    height: 30px;
+    width: 130px;
+    background-color: #A3B3BF;
+    margin-right: 5px; }
+    .article-options .button2 img {
+      margin: 0px;
+      padding: 9px;
+      background-color: #5E686F;
+      float: left; }
+    .article-options .button2 span {
+      float: left;
+      margin: 15px;
+      font-size: 14px;
+      font-family: 'Myriad' sans-serif;
+      color: #FFFFFF;
+      font-weight: lighter; }
+  .article-options .button3 {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    text-align: center;
+    line-height: 0px;
+    height: 30px;
+    width: 155px;
+    background-color: #106DB3; }
+    .article-options .button3 img {
+      margin: 0px;
+      padding: 8px;
+      background-color: #083452;
+      float: left; }
+    .article-options .button3 span {
+      float: left;
+      margin: 15px;
+      margin-left: 0px;
+      font-size: 14px;
+      font-family: 'Myriad' sans-serif;
+      color: #FFFFFF;
+      font-weight: lighter; }
+  .article-options button:focus {
+    outline: none; }
+
+section.sidebar {
+  display: inline-block;
+  margin-top: 70px; }
+  section.sidebar img.author-img {
+    height: 85px;
+    width: 85px;
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-bottom: 10px;
+    float: left;
+    display: block; }
+  section.sidebar .author-name {
+    display: block;
+    font-size: 18px;
+    padding-top: 20px;
+    margin: 0px;
+    width: 300px;
+    margin-left: 90px;
+    font-family: 'Oswald' sans-serif; }
+  section.sidebar meta {
+    display: inline;
+    margin-left: 30px;
+    margin-bottom: 45px;
+    float: left; }
+  section.sidebar a {
+    text-decoration: none;
+    color: #A8B7C3;
+    margin-bottom: 45px;
+    margin-left: 15px;
+    font-family: 'Myriad' sans-serif;
+    font-weight: lighter;
+    display: inline-block;
+    float: left;
+    font-size: 14px; }
+  section.sidebar img {
+    float: left;
+    display: block; }
+  section.sidebar div {
+    width: 130px;
+    height: 373px; }
+  section.sidebar a.about-ad {
+    display: block;
+    float: right;
+    margin-left: 200px;
+    margin-right: 112px;
+    text-decoration: underline; }
+  section.sidebar .sidebar-article {
+    display: inline;
+    margin-top: 80px;
+    width: 400px; }
+    section.sidebar .sidebar-article h3 {
+      display: inline-block;
+      color: #106DB3;
+      transform: scale(1, 1.5);
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 0px; }
+    section.sidebar .sidebar-article p {
+      font-family: 'Myriad' sans-serif;
+      width: 278px;
+      text-align: left;
+      color: #A8B7C3;
+      font-weight: lighter;
+      letter-spacing: 0px;
+      line-height: 25px; }
+
+footer {
+  float: left; }
