@@ -2,12 +2,13 @@ footer{
   float: left;
   width: 1300px;
 
+$layer-color: rgba(16, 109, 179, .7);
+
   h4{
     display: block;
-    margin: 40px 0px 40px 350px;
+    margin: 40px 0px 40px 360px;
     font-size: 52px;
     color: #083452;
-    float: left;
     transform: scale(1,1.75);
     font-weight: 406;
     width: 100%;
@@ -57,15 +58,8 @@ footer{
     background-image: url(../assets/article-image-3.jpg);
     margin: 0px;
 
-    span{
-      margin-left: 20px;
-      display: inline-block;
-      color: #083452;
-      padding-top: 193px;
-      font-size: 28px;
-      font-family: 'Myriad' sans-serif;
-      transform: scale(1,1.5);
-    }
+
+
   }
 
   figure:nth-child(5){
@@ -74,26 +68,10 @@ footer{
     width: 325px;
     background-image: url(../assets/article-image-4.jpg);
     margin: 0px;
-    float: right;
 
-    span{
-      margin-left: 20px;
-      display: inline-block;
-      color: #083452;
-      padding-top: 230px;
-      font-size: 25px;
-      font-family: 'Myriad' sans-serif;
-      transform: scale(1,1.5);
-    }
   }
     .layer1{
-      background-color: rgba(16, 109, 179, .7);
-      height: 100%;
-      width: 100%;
-    }
-
-    .layer2{
-      background-color: rgba(16, 109, 179, .3);
+      background-color: $layer-color;
       height: 100%;
       width: 100%;
     }
@@ -144,3 +122,31 @@ footer{
       }
     }
 }
+
+footer figure a{
+  text-decoration: none;
+  margin-left: 20px;
+  display: inline-block;
+  color: #083452;
+  padding-top: 230px;
+  font-size: 25px;
+  font-family: 'Myriad' sans-serif;
+  transform: scale(1,1.5);
+  }
+
+
+footer figure a:hover{
+  text-decoration: none;
+  margin-left: 20px;
+  display: inline-block;
+  color: #FFFFFF;
+  padding-top: 230px;
+  font-size: 25px;
+  font-family: 'Myriad' sans-serif;
+  transform: scale(1,1.5);
+  background-color: none;
+}
+
+  footer figure:nth-child(4) a{
+    padding-top: 200px;
+  }
